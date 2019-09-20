@@ -1,0 +1,59 @@
+body {
+		background-color: #000000db	;
+	}
+	img {
+		width: 250px;
+	    height: 260px;
+	    border-radius: 200px; 
+	    border: 7px solid white;
+	    box-shadow: 10px 10px 40px grey;
+	    margin-top: 50px;
+	    margin-left: 270px;
+	}
+	h1 {
+		color: white;
+        font-family: 'Cute Font', cursive;
+        margin-top: 10px;
+        margin-left: 320px;
+	}
+	.bawah {
+		background-color: #065026a1;
+		width: 1000px;
+		height: 1px;
+		box-sizing: border-box;
+		box-shadow: 1px 1px 3px 3px white;
+		border: 3px solid #ffb00f;
+		margin: 10px;
+		border-top-left-radius: 10px;
+		margin-top: 62px;
+	}
+	.atas {
+		background-color: #065026a1;
+		width: 1000px;
+		height: 1px;
+		box-sizing: border-box;
+		box-shadow: 1px 1px 5px 5px blue;
+		border: 3px solid #01ffee;
+		margin: 10px;
+		border-top-right-radius: 10px;
+		margin-left: 350px;
+	}
+	i.fa-twitter{
+		margin-left: 340px;
+	}
+	h2 {
+		color: white;
+		text-align: center;
+		margin-left: 5px;
+		font-size: 20px;
+
+	}
+	.col { 
+		width: 60%;
+		height: 500px;
+        margin: auto;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+        margin-top: 70px;
+        border: 3px solid white;
+        background-image: url(http://www.rayvensoft.com/images/backgrounds/contact-background.jpg);
+	}
