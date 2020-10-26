@@ -8,121 +8,165 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 
-    <title>Yaelahdapp</title>
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+    <title>Nama Lo</title>
   </head>
-  <style>
-    body {
-  background-color: black;
-}
-img {
-  width: 190px;
-  height: 190px;
-  border-radius: 250px;
-  filter: grayscale(100%);
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 120px;
-  box-shadow: 1px 0px 2px 4px #fff700;
-}
-h1 {
-  font-family: verdana;
-  font-style: italic;
-  margin-top: 40px;
-  color: white;
-}
-i {
-  color: white;
-  margin-right: 20px;
-  font-size: 14px;
-  padding-left: 40px;
-}
-.container {
-   width: 90%; 
-   background-color: #f5f3f2;
-   padding: 0px;
-   border-radius: 40px;
-   height: 20px;
-}
-.skills {
-   text-align: end;
-   padding-top: -5px;
-   padding-bottom: 0px;
-   color: white;
-   border-radius: 40px;
-}
-.game {
-   width: 100%;
-   background-color: yellow;
-   height: 20px;
-   padding: auto;
-   padding-right: 10px;
-}
-.designer {
-   width: 80%;
-   background-color: yellow;
-   height: 20px;
-   padding-right: 10px;
-}
-.coding {
-   width: 75%;
-   background-color: yellow;
-   height: 20px;
-   padding-right: 10px;
-}
-h5 {
-  padding-right: 120px;
-  font-family: 'Nanum Gothic', sans-serif;
-  color: white;
-}
-h3 {
-  font-size: 15px;
-  color: black;
-}
-p {
-  color: rgb(255,255,255);
-}
-  </style>
   <body>
-    <div class="text-center">
-    <img src="https://i.ibb.co/v3NHcSw/IMG20200509143443.jpg">
-    <h1>Daffaa Isham</h1>
-    <a href="https://instagram.com/daffxshm.id/"
-target="_blank"><i class="fab fa-instagram" style="margin-right: 10px;"></i></a>
-    <a href="https://github.com/rootlolID"
-target="_blank"><i class="fab fa-github text-center"></i></a>
-    <a href="https://twitter.com/yaelahdapp"
-target="_blank"><i class="fab fa-twitter-square mr-5"></i></a>
-    <br>
-    <p>developer</p>
+    <!-- Navbar -->
+     <nav id="navbar_top" class="navbar navbar-default navbar-light navbar-expand-lg bg-transparant">
+      <div class="container">
+    <a class="navbar-brand" href="#">Nama Lo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-primary tombol" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+ </div>
+</nav>
+
+  <!-- Jumbotron -->
+ <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Hello I'm,  <span class="txt-type" data-wait="3000" data-words='["Nama Lo", "Programmer", "Developer", "Designer"]'></span></h1>
+      </div>
+</div>
+   
+   <section class="about" id="about">
+   <div class="container">
+     <div class="row">
+       <div class="col mb-5 text-center">
+         <h2>About</h2>
+       </div>
+     </div>
+
+     <div class="row">
+       <div class="col mb-5">
+            <img src="IMG-20200921-190738.jpg">
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+       </div>
+
+       <div class="col ml-5">
+        <br>
+        <br>
+         <h5 class="gaming"><i class="fas fa-gamepad"></i>Game</h5>
+          <div class="container">
+          <div class="skills game"><h3>100%</h3></div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+            <div class="col"></div>
+            <h5 class="design"><i class="fas fa-laptop"></i>Design</h5>
+            <div class="container">
+            <div class="skills designer"><h3>80%</h3></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h5><i class="fas fa-code"></i>Coding</h5>
+            <div class="container">
+            <div class="skills coding"><h3>75%</h3></div>
+            </div>
+       </div>
+     </div>
+     <div class="col mt-5 mb-5">
+       <div class="box">
+         
+       </div>
+     </div>
   </div>
-  <div class="col-md">
-<h5 class="gaming"><i class="fas fa-gamepad"></i>Game</h5>
-<div class="container">
-<div class="skills game"><h3>100%</h3></div>
-</div>
-<br>
-<div class="col"></div>
-<h5 class="design"><i class="fas fa-laptop"></i>Design</h5>
-<div class="container">
-<div class="skills designer"><h3>80%</h3></div>
-</div>
-<br>
-<h5><i class="fas fa-code"></i>Coding</h5>
-<div class="container">
-<div class="skills coding"><h3>75%</h3></div>
-</div>
-<br>
-<br>
-<br>
-</div>
+</section>
+
+ <section class="contact-section" id="contact">
+   <div class="container mt-5 text-center" style="height: 900px;">
+     <div class="row">
+       <div class="col">
+         <h2 class="contact">Contact</h2>
+       </div>
+     </div>
+     <div class="row mt-5">
+       <div class="col text-center">
+         <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-info-text">
+                <h2>address</h2>
+                <span>Tempat tinggal Lo</span> 
+              </div>
+            </div>            
+          </div>          
+        </div>          
+        <div class="col-md-4">
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-info-text">
+                <h2>E-mail</h2>
+                <span><a href="https://gmail.com" target="_blank" style="color: white; font-style: unset; text-decoration: underline;"> gmaillo@gmail.com</a></span>
+              </div>
+            </div>            
+          </div>                
+        </div>                
+        <div class="col-md-4">
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-info-text">
+                <h2>Mobile</h2>
+                <span>+62 08****[nama hp lo]</span>
+              </div>
+            </div>            
+          </div>          
+        </div>          
+      </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+<!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50">
+<div class="social d-flex">
+                    <a class="mx-2" href="#" target="_blank"><i class="fab fa-twitter mt-4" style="color: white;"></i></a>
+                    <a class="mx-2" href="#" target="_blank"><i class="fab fa-facebook-f mt-4" style="color: white;"></i></a>
+                    <a class="mx-2" href="#" target="_blank"><i class="fab fa-instagram mt-4" style="color: white;"></i></a>
+                    <a class="mx-2" href="#" target="_blank"><i class="fab fa-github mt-4" style="color: white;"></i></a>
+                </div>
+          <div class="container mt-4" id="crp">Copyright © Nama Lo 2020</div></footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- My Javascript -->
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
