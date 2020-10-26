@@ -15,6 +15,361 @@
 
     <title>Nama Lo</title>
   </head>
+  <style>
+  /* Nav bar */
+.navbar-brand {
+	font-family: 'Secular One', sans-serif;
+	font-size: 32px;
+	font-style: italic;
+}
+.nav-link {
+	text-transform: uppercase;
+    margin-right: 30px;		
+}
+html {
+	scroll-behavior: smooth;
+}
+ 
+
+
+/* Jumbotron */
+.jumbotron {
+	background-image: url(IMG-20200927-130721-648.jpg);
+    background-size: cover;
+    height: 675px;
+    background-attachment: fixed;
+    opacity: 1;
+}        
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+/* Utility */
+.tombol {
+	text-transform: uppercase;
+	border-radius: 40px;
+}
+h1 {
+  font-size: 3.5rem;
+}
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+} 
+    h1 {
+    font-size: 3rem;
+    }
+	.skills {
+	   text-align: end;
+	   padding-top: -5px;
+	   padding-bottom: 0px;
+	   color: black;
+	   border-radius: 40px;
+	}
+	.game {
+	   width: 100%;
+	   background-color: yellow;
+	   height: 15px;
+	   padding: auto;
+	   padding-right: 10px;
+	}
+	.designer {
+	   width: 80%;
+	   background-color: yellow;
+	   height: 15px;
+	   padding-right: 10px;
+	}
+	.coding {
+	   width: 75%;
+	   background-color: yellow;
+	   height: 15px;
+	   padding-right: 10px;
+	}
+	h5 {
+	  padding-right: 120px;
+	  font-family: 'Nanum Gothic', sans-serif;
+	  color: black;	
+	}
+	h3 {
+		font-size: 15px;
+	}
+    img {
+	  width: 190px;
+	  height: 190px;
+	  border-radius: 250px;
+	  filter: grayscale(100%);
+	  margin-right: auto;
+	  margin-left: 123px;
+	  box-shadow: 1px 3px 17px 5px #fff700;
+	}
+	p {
+		margin-top: 30px;
+		font-family: verdana;
+		font-size: 20px;
+	}
+	i {
+	  color: black;
+	  margin-right: 20px;
+	  font-size: 14px;
+	  padding-left: 40px;
+	}
+	.box {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 482px;
+		height: 3px;
+		background: #1a20e29e;
+		margin-top: 40px;
+		border-radius: 50%;
+	}
+    /* Contact */
+    h2 {
+    	margin-top: 90px;
+    }
+    .contact-info {
+	  display: inline-block;
+	  width: 100%;
+	  text-align: center;
+	  margin-bottom: 10px;
+	}
+	.contact-info-icon {
+	margin-bottom: 15px;
+	}
+	.contact-info-item {
+	  background: #1716161f;
+	  padding: 30px 0px;
+	}
+	.contact-page-sec .contact-page-form h2 {
+	  color: #071c34;
+	  text-transform: capitalize;
+	  font-size: 22px;
+	  font-weight: 700;
+	}
+	.contact-info-text h2 {
+	  color: #fff;
+	  font-size: 22px;
+	  text-transform: capitalize;
+	  font-weight: 600;
+	  margin-bottom: 10px;
+	}
+	.contact-info-text span {
+	  color: whitesmoke;
+	  font-size: 16px;
+	  font-weight: ;
+	  display: inline-block;
+	  width: 100%;
+	}
+    .contact-info-icon i {
+	  font-size: 48px;
+	  color: white;
+	}
+        .contact-section {
+    	background-image: url(parallax-background-example.jpg);
+    	background-attachment: fixed;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	height: 1000px;
+    }
+    h2.contact {
+    	color: white;
+    }
+    footer {
+    	background-color: black;
+    	color: white;
+    	height: 85px;
+    }
+    .social {
+    	margin-left: 50px;
+    }
+
+
+
+
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: white !important;
+    	text-shadow: 3px 3px 3px black;
+    }
+    .nav-link {
+	    text-transform: uppercase;
+	    margin-right: 30px;		
+    }
+
+    .nav-link:hover::after {
+    	content: '';
+    	display: block;
+    	border-bottom: 3px solid #0B63DC;
+    	width: 50%;
+    	margin: auto;
+    	padding-bottom: 3px;
+    	margin-bottom: -8px;
+    }
+    /* Jumbotron */
+    .jumbotron {
+		background-image: url(IMG-20200927-130721-648.jpg);
+	    margin-top: -75px;
+	    height: 800px;
+	    background-attachment: fixed;
+	    background-size: cover;
+	    background-position: center;
+	    margin-bottom: 20px;
+    } 
+    h1 {
+    font-size: 3rem;
+    }
+	.skills {
+	   text-align: end;
+	   padding-top: -5px;
+	   padding-bottom: 0px;
+	   color: black;
+	   border-radius: 40px;
+	}
+	.game {
+	   width: 100%;
+	   background-color: yellow;
+	   height: 15px;
+	   padding: auto;
+	   padding-right: 10px;
+	}
+	.designer {
+	   width: 80%;
+	   background-color: yellow;
+	   height: 15px;
+	   padding-right: 10px;
+	}
+	.coding {
+	   width: 75%;
+	   background-color: yellow;
+	   height: 15px;
+	   padding-right: 10px;
+	}
+	h5 {
+	  padding-right: 120px;
+	  font-family: 'Nanum Gothic', sans-serif;
+	  color: black;	
+	}
+	h3 {
+		font-size: 15px;
+	}
+    img {
+	  width: 190px;
+	  height: 190px;
+	  border-radius: 250px;
+	  filter: grayscale(100%);
+	  margin-right: auto;
+	  margin-left: 120px;
+	  box-shadow: 1px 0px 2px 4px #fff700;
+	}
+	p {
+		margin-top: 30px;
+		font-family: verdana;
+		font-size: 20px;
+	}
+	i {
+	  color: black;
+	  margin-right: 20px;
+	  font-size: 14px;
+	  padding-left: 40px;
+	}
+	.box {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 1425px;
+		height: 1px;
+		background: #1a20e29e;
+		margin-top: 37px;
+		padding-top: 5px;
+	}
+    /* Contact */
+    h2 {
+    	margin-top: 90px;
+    	color: black;
+    }
+    .contact-info {
+	  display: inline-block;
+	  width: 100%;
+	  text-align: center;
+	  margin-bottom: 10px;
+	  margin-top: 250px;
+	}
+	.contact-info-icon {
+	margin-bottom: 15px;
+	}
+	.contact-info-item {
+	  background: #1716161f;
+	  padding: 30px 0px;
+	}
+	.contact-page-sec .contact-page-form h2 {
+	  color: #071c34;
+	  text-transform: capitalize;
+	  font-size: 22px;
+	  font-weight: 700;
+	}
+	.contact-info-text h2 {
+	  color: #fff;
+	  font-size: 22px;
+	  text-transform: capitalize;
+	  font-weight: 600;
+	  margin-bottom: 10px;
+	}
+	.contact-info-text span {
+	  color: whitesmoke;
+	  font-size: 16px;
+	  font-weight: ;
+	  display: inline-block;
+	  width: 100%;
+	}
+    .contact-info-icon i {
+	  font-size: 48px;
+	  color: white;
+	}
+    .contact-section {
+    	background-image: url(parallax-background-example.jpg);
+    	background-attachment: fixed;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    }
+    h2.contact {
+    	color: white;
+    }
+    footer {
+    	background-color: black;
+    	color: white;
+    	height: 100px;
+    }
+    .social {
+    	margin-left: 521px;
+    }
+    #crp {
+    	font-size: 13px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+  </style>
   <body>
     <!-- Navbar -->
      <nav id="navbar_top" class="navbar navbar-default navbar-light navbar-expand-lg bg-transparant">
@@ -168,5 +523,144 @@
 
     <!-- My Javascript -->
     <script type="text/javascript" src="script.js"></script>
+<script>
+// const TypeWriter = function(txtElement, words, wait = 3000) {
+//   this.txtElement = txtElement;
+//   this.words = words;
+//   this.txt = '';
+//   this.wordIndex = 0;
+//   this.wait = parseInt(wait, 10);
+//   this.type();
+//   this.isDeleting = false;
+// }
+
+// // Type Method
+// TypeWriter.prototype.type = function() {
+//   // Current index of word
+//   const current = this.wordIndex % this.words.length;
+//   // Get full text of current word
+//   const fullTxt = this.words[current];
+
+//   // Check if deleting
+//   if(this.isDeleting) {
+//     // Remove char
+//     this.txt = fullTxt.substring(0, this.txt.length - 1);
+//   } else {
+//     // Add char
+//     this.txt = fullTxt.substring(0, this.txt.length + 1);
+//   }
+
+//   // Insert txt into element
+//   this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
+
+//   // Initial Type Speed
+//   let typeSpeed = 300;
+
+//   if(this.isDeleting) {
+//     typeSpeed /= 2;
+//   }
+
+//   // If word is complete
+//   if(!this.isDeleting && this.txt === fullTxt) {
+//     // Make pause at end
+//     typeSpeed = this.wait;
+//     // Set delete to true
+//     this.isDeleting = true;
+//   } else if(this.isDeleting && this.txt === '') {
+//     this.isDeleting = false;
+//     // Move to next word
+//     this.wordIndex++;
+//     // Pause before start typing
+//     typeSpeed = 500;
+//   }
+
+//   setTimeout(() => this.type(), typeSpeed);
+// }
+
+
+// ES6 Class
+class TypeWriter {
+  constructor(txtElement, words, wait = 3000) {
+    this.txtElement = txtElement;
+    this.words = words;
+    this.txt = '';
+    this.wordIndex = 0;
+    this.wait = parseInt(wait, 10);
+    this.type();
+    this.isDeleting = false;
+  }
+
+  type() {
+    // Current index of word
+    const current = this.wordIndex % this.words.length;
+    // Get full text of current word
+    const fullTxt = this.words[current];
+
+    // Check if deleting
+    if(this.isDeleting) {
+      // Remove char
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+      // Add char
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    // Insert txt into element
+    this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
+
+    // Initial Type Speed
+    let typeSpeed = 300;
+
+    if(this.isDeleting) {
+      typeSpeed /= 2;
+    }
+
+    // If word is complete
+    if(!this.isDeleting && this.txt === fullTxt) {
+      // Make pause at end
+      typeSpeed = this.wait;
+      // Set delete to true
+      this.isDeleting = true;
+    } else if(this.isDeleting && this.txt === '') {
+      this.isDeleting = false;
+      // Move to next word
+      this.wordIndex++;
+      // Pause before start typing
+      typeSpeed = 500;
+    }
+
+    setTimeout(() => this.type(), typeSpeed);
+  }
+}
+
+
+// Init On DOM Load
+document.addEventListener('DOMContentLoaded', init);
+
+// Init App
+function init() {
+  const txtElement = document.querySelector('.txt-type');
+  const words = JSON.parse(txtElement.getAttribute('data-words'));
+  const wait = txtElement.getAttribute('data-wait');
+  // Init TypeWriter
+  new TypeWriter(txtElement, words, wait);
+}
+
+
+
+if ($(window).width() > 992) {
+  $(window).scroll(function(){  
+     if ($(this).scrollTop() > 40) {
+        $('#navbar_top').addClass("fixed-top");
+        // add padding top to show content behind navbar
+        $('body').css('padding-top', $('.navbar').outerHeight() + 'px');
+      }else{
+        $('#navbar_top').removeClass("fixed-top");
+         // remove padding top from body
+        $('body').css('padding-top', '0');
+      }   
+  });
+} // end if
+</script>
   </body>
 </html>
