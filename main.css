@@ -1,0 +1,252 @@
+.jumbotron {
+  padding-top: 10rem;
+  background-color: rgb(98 0 255);
+}
+
+h3 {
+  margin-top: -30px;
+}
+
+body {
+  min-height: ;
+}
+
+#potret {
+  background-color: rgb(98 0 255);
+}
+
+#potret p {
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-family: inherit;
+}
+
+.card {
+  position: unset;
+}
+.pt-5 {
+  padding-top: 5rem!important;
+}
+
+/* Awal Nav */
+nav {
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0%;
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 50px;
+  box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 17%);
+}
+
+/* Hamburger menu */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu-toggle input {
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  top: -3px;
+  left: 288px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+  align-content: flex-end;
+  justify-content: flex-end;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: rgb(98 0 255);
+  border-radius: 3px;
+  transition: all 0.5s;
+}
+
+/* Hamburger Menu Animation */
+.menu-toggle span:nth-child(2) {
+  transform-origin: 0 0;
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+  transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+  background-color: rgb(98 0 255);
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+  background-color: rgb(98 0 255);
+  transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+  opacity: 0;
+  transform: scale(0);
+}
+
+label.logo a {
+  color: rgb(98 0 255);
+  font-size: 25px;
+  line-height: 80px;
+  padding: 50px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-right: 20px;
+  position: relative;
+  text-decoration: none;
+}
+
+label.logo a:hover {
+  color: black;
+  transition: 0.5s;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+  background: rgba(000, 000, 000, 000);
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  align-items: center;
+}
+
+li a {
+  padding-right: 50px;
+  font-weight: 100px;
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(98 0 255);
+  font-weight: bold;
+}
+
+li a:hover {
+  color: black;
+  transition: 0.5s;
+}
+/* Akhir Nav */
+
+/* Awal Footer */
+footer {
+    background-color: black;
+    color: white;
+    height: 136px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#crp {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.social {
+    justify-content: center;
+    letter-spacing: 30px;
+    margin-left: 31px;
+}
+/* Akhir Footer */
+
+
+
+
+
+
+
+
+
+
+/* Di Mobile */
+@media screen and (max-width: 576px) {
+    .menu-toggle {
+        display: flex;
+        line-height: 80px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        position: fixed;
+        top: 31;
+        padding-left: 295px;
+        margin-top: 30px;
+    }
+
+    nav {
+        align-items: center;
+        width: 100%;
+        height: 80px;
+        position: fixed;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+        align-items: center;
+        padding-left: 50px;
+        line-height: 120px;
+    }
+
+    label.logo {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        line-height: 80px;
+        padding: 0px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        padding-right: 20px;
+        position: relative;
+        text-decoration: none;
+    }
+
+    nav ul {
+        position: fixed;
+        right: -7%;
+        top: 0;
+        height: 100vh;
+        width: 80%;
+        transform: translate(100%);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        z-index: 1;
+        background-color: rgb(255 253 253 / 81%);
+        transition: all 1s;
+        opacity: 0;
+        font-size: 30px;
+        letter-spacing: 3;
+        padding-top: 90px;
+        text-align: center;
+    }
+
+    li a {
+        padding-right: 50px;
+        font-weight: 100px;
+        text-decoration: none;
+        list-style-type: none;
+        color: rgb(98 0 255);
+        font-weight: bold;
+    }
+
+    li a:hover {
+      color: black;
+      transition: 0.5s;
+    }
+
+    nav ul.slide {
+        opacity: 1;
+        transform: translateX(0);
+    }
