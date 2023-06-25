@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #6a14fffb;
+}
+
+.bulat1 {
+  height: 20em;
+  width: 20em;
+  background: linear-gradient(82deg, rgb(150 161 183) 29%, rgb(210, 210, 212) 67%);
+  border-radius: 200px;
+  position: absolute;
+  left: 1em;
+  margin-top: 8%;
+  z-index: -1;
+}
+
+.bulat2 {
+  height: 20em;
+  width: 20em;
+  background: linear-gradient(291deg, rgb(150 161 183) 29%, rgb(210, 210, 212) 67%);
+  border-radius: 200px;
+  position: fixed;
+  right: -1em;
+  margin-top: 29%;
+  z-index: -1;
+}
+
+.container {
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  padding-top: 50px;
+}
+
+@font-face {
+  font-family: leaguespartan-bold;
+  src: url('leaguespartan-bold.ttf');
+}
+
+h1 {
+  font-family: leaguespartan-bold;
+  padding-top: 30px;
+  color: white;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  padding: 50px;
+  color: white;
+  font-family: sans-serif;
+}
+
+footer {
+  margin-top: -70px;
+}
+
+#crp {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.social {
+  justify-content: center;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.kotak {
+  height: 36em;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 2vw;
+  background: linear-gradient(167deg, rgb(254 255 255 / 39%) 10%, rgb(248 249 255 / 36%) 22%, rgb(255 255 255 / 32%) 38%, rgb(249 249 249 / 29%) 54%, rgb(252 249 255 / 40%) 100%);
+  text-align: center;
+  box-shadow: rgb(18 17 17 / 22%) 5px 8px 7px 0px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .kotak {
+    height: 175vw;
+    width: 95vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: linear-gradient(167deg, rgb(254 255 255 / 39%) 10%, rgb(248 249 255 / 36%) 22%, rgb(255 255 255 / 32%) 38%, rgb(249 249 249 / 29%) 54%, rgb(252 249 255 / 40%) 100%);
+    text-align: center;
+    box-shadow: rgb(18 17 17 / 22%) 5px 8px 7px 0px;
+    border-radius: 20px;
+    z-index: 1;
+  }
+
+  .bulat1 {
+    height: 20em;
+    width: 20em;
+    background: linear-gradient(82deg, rgb(150 161 183) 29%, rgb(210, 210, 212) 67%);
+    border-radius: 200px;
+    position: fixed;
+    left: 215px;
+    margin-top: 112%;
+    z-index: -1;
+  }
+
+  .bulat2 {
+    height: 20em;
+    width: 20em;
+    background: linear-gradient(291deg, rgb(150 161 183) 29%, rgb(210, 210, 212) 67%);
+    border-radius: 200px;
+    position: absolute;
+    right: 12em;
+    margin-top: 0%;
+    z-index: -1;
+  }
+}
