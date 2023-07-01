@@ -96,7 +96,7 @@ footer {
     height: 175vw;
     width: 95vw;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 0px;
     background: linear-gradient(167deg, rgb(254 255 255 / 39%) 10%, rgb(248 249 255 / 36%) 22%, rgb(255 255 255 / 32%) 38%, rgb(249 249 249 / 29%) 54%, rgb(252 249 255 / 40%) 100%);
     text-align: center;
     box-shadow: rgb(18 17 17 / 22%) 5px 8px 7px 0px;
