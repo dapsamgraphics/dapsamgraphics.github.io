@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #6a14fffb;
+  background-color: #ffff;
 }
 
 .bulat1 {
@@ -47,18 +47,18 @@ img {
 h1 {
   font-family: leaguespartan-bold;
   padding-top: 30px;
-  color: white;
+  color: #004cff;
 }
 
 h2 {
   font-family: sans-serif;
   font-weight: bold;
-  color: white;
+  color: #004cff;
 }
 
 p {
   padding: 50px;
-  color: white;
+  color: #004cff;
   font-family: sans-serif;
 }
 
@@ -67,7 +67,7 @@ footer {
 }
 
 #crp {
-  color: white;
+  color: #004cff;
   padding: 20px;
   text-align: center;
 }
@@ -76,6 +76,7 @@ footer {
   justify-content: center;
   letter-spacing: 10px;
   text-align: center;
+  color: #004cff;
 }
 
 .kotak {
