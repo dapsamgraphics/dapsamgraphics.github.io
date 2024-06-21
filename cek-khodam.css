@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(226 236 255);
+}
+
+/* MY FONT */
+@font-face {
+  font-family: Fontspring-DEMO-integralcf-bold;
+  src: url('Fontspring-DEMO-integralcf-bold.otf');
+}
+
+@font-face {
+  font-family: Gotham Bold;
+  src: url('Gotham Bold.otf');
+}
+
+@font-face {
+  font-family: Candy Shop Black Personal Use;
+  src: url('Candy Shop Black Personal Use.ttf');
+}
+
+@font-face {
+  font-family: aAbstractGroovy;
+  src: url('aAbstractGroovy.ttf');
+}
+/* End MY FONTS */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  background: linear-gradient(167deg, rgb(254 255 255 / 39%) 10%, rgb(248 249 255 / 36%) 22%, rgb(255 255 255 / 32%) 38%, rgb(249 249 249 / 29%) 54%, rgb(252 249 255 / 40%) 100%);
+  margin: 6vh auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 9px 10px rgb(0 0 0 / 14%);
+  padding: 20px 10px;
+}
+
+h1 {
+  color: black;
+  font-family: Fontspring-DEMO-integralcf-bold;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+input[type='text'] {
+  padding: 10px;
+  width: 80%;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(226 236 255);
+  color: #000000;
+  border-style: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.303);
+  outline: none;
+}
+
+input::placeholder {
+  color: rgb(120, 120, 120);
+  font-family: Gotham Bold;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+input[type='submit'] {
+  padding: 10px 20px;
+  background-color: rgb(226 236 255);
+  color: rgb(120, 120, 120);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  font-family: Gotham Bold;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.303);
+}
+
+input[type='submit']:hover {
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.897);
+}
+
+#response {
+  font-size: 1.2em;
+  color: white;
+  font-family: Gotham Bold;
+  background-color: #0050ff80;
+  width: 80%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 20px;
+  margin: 25px auto;
+}
+
+h2 {
+  color: black;
+  margin: auto;
+  font-family: Gotham Bold;
+  font-size: 0.9rem;
+}
